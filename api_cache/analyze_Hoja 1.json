@@ -1,0 +1,1269 @@
+{
+  "success": true,
+  "total_rows": 16,
+  "total_columns": 41,
+  "column_classification": {
+    "numeric": [
+      "Voltaje de alimentación a Panel o equipo",
+      "Valoración de  Estado de medidas Eléctricas",
+      "Funcionalidad de periféricos Apertura y Cierre con tarjetas o controles",
+      "Seteo de Tiempo para operación de apertura y cierre mecanismos  ",
+      "Limpieza, engrasado o Lubricación"
+    ],
+    "category": [
+      "Marca temporal (16 valores)",
+      "Tecnico Responsable (1 valores)",
+      "Tecnico de soporte (1 valores)",
+      "Campus (1 valores)",
+      "Edificio (2 valores)",
+      "Ubicación: piso o lugar de referencia (16 valores)",
+      "Equipo (3 valores)",
+      "Serie equipo (16 valores)",
+      "Control de bienes (10 valores)",
+      "Batería externa  (13 valores)",
+      "Batería Interna (7 valores)",
+      "Alimentación independiente Electroiman (7 valores)",
+      "Posee tierra conectada adecuadamente (4 valores)",
+      "Voltaje en Electroiman Puerta 1 (16 valores)",
+      "Voltaje Electroiman Puerta 2 (7 valores)",
+      "Posee Supresor de Transientes Energia (1 valores)",
+      "Posee Supresor de Transientes Red (1 valores)",
+      "El tablero se encuentra Peinado sus cables al interior (2 valores)",
+      "El Tablero posee relés o otros equipos sin su base socket (3 valores)",
+      "Recomendaciones Eléctricas del técnico (15 valores)",
+      "Activación de evacuación con Sistema Contraincendios (2 valores)",
+      "Estado General Tablero (2 valores)",
+      "Recomendaciones operatividad Técnico (14 valores)",
+      "Recomienda un trabajo Correctivo (2 valores)",
+      "Observaciones (16 valores)",
+      "Recomendaciones (16 valores)"
+    ],
+    "date": [
+      "Fecha y Hora del Mantenimiento",
+      "Registro de Fecha de cambio de bateria externa",
+      "Registro de Cambio de batería Interna",
+      "Hora de cierre de trabajo"
+    ]
+  },
+  "numeric_analysis": {
+    "Voltaje de alimentación a Panel o equipo": {
+      "count": 16,
+      "sum": 254.06,
+      "avg": 15.88,
+      "min": 11.76,
+      "max": 19.5,
+      "median": 17.405
+    },
+    "Valoración de  Estado de medidas Eléctricas": {
+      "count": 16,
+      "sum": 50,
+      "avg": 3.13,
+      "min": 2,
+      "max": 4,
+      "median": 3
+    },
+    "Funcionalidad de periféricos Apertura y Cierre con tarjetas o controles": {
+      "count": 16,
+      "sum": 48,
+      "avg": 3,
+      "min": 1,
+      "max": 5,
+      "median": 3
+    },
+    "Seteo de Tiempo para operación de apertura y cierre mecanismos  ": {
+      "count": 16,
+      "sum": 50,
+      "avg": 3.13,
+      "min": 1,
+      "max": 4,
+      "median": 3
+    },
+    "Limpieza, engrasado o Lubricación": {
+      "count": 16,
+      "sum": 52,
+      "avg": 3.25,
+      "min": 3,
+      "max": 4,
+      "median": 3
+    }
+  },
+  "category_analysis": {
+    "Marca temporal": {
+      "unique_values": 16,
+      "distribution": [
+        {
+          "value": "MT-000006",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "MT-000008",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "MT-000009",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "MT-000010",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "MT-000011",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "MT-000012",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "MT-000013",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "MT-000014",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "MT-000015",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "MT-000017",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "MT-000018",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "MT-000019",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "MT-000020",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "MT-000021",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "MT-000022",
+          "count": 1,
+          "percentage": 6.25
+        }
+      ]
+    },
+    "Tecnico Responsable": {
+      "unique_values": 1,
+      "distribution": [
+        {
+          "value": "Alexis Conlago",
+          "count": 16,
+          "percentage": 100
+        }
+      ]
+    },
+    "Tecnico de soporte": {
+      "unique_values": 1,
+      "distribution": [
+        {
+          "value": "Juan Touma",
+          "count": 16,
+          "percentage": 100
+        }
+      ]
+    },
+    "Campus": {
+      "unique_values": 1,
+      "distribution": [
+        {
+          "value": "Quito",
+          "count": 16,
+          "percentage": 100
+        }
+      ]
+    },
+    "Edificio": {
+      "unique_values": 2,
+      "distribution": [
+        {
+          "value": "Administrativo",
+          "count": 12,
+          "percentage": 75
+        },
+        {
+          "value": "Ingenieria",
+          "count": 4,
+          "percentage": 25
+        }
+      ]
+    },
+    "Ubicación: piso o lugar de referencia": {
+      "unique_values": 16,
+      "distribution": [
+        {
+          "value": "Dirección de Estudiantes (Edf. Administrativo, Ducto PB)",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "Edf. Administrativo Gradas. (Ducto PB)",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "Edf. Adm PB - Tesorería. ( Ducto PB)",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "Recursos Humanos P1 ( DuctoPB)",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "DGAD P1 ( Ducto PB) ",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "Dep. Financiero P1 (CAFETERIA FINANCIERO P1)",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "Rectorado/ Vicerrectorado ( P2 CAFETERIA Vicerrectorado)",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "Equipo Comunicaciones P3 ( Rack P3)",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "Oficina Seguridad P3 (Rack P3)",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "Relaciones Públicas P3 (Rack P3)",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "Secretaria General PB (Ducto PB)",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "Monitoreo P3 (Rack P3)",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "Oficina de profesores ingeniería P1 ( Coliseo P1 frente) ",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "Centro de Cómputo P1 ( Centro de Cómputo) ",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "Becarios P2 ( centro de Cómputo P2)",
+          "count": 1,
+          "percentage": 6.25
+        }
+      ]
+    },
+    "Equipo": {
+      "unique_values": 3,
+      "distribution": [
+        {
+          "value": "RC2",
+          "count": 9,
+          "percentage": 56.25
+        },
+        {
+          "value": "UNC500",
+          "count": 6,
+          "percentage": 37.5
+        },
+        {
+          "value": "UNC100",
+          "count": 1,
+          "percentage": 6.25
+        }
+      ]
+    },
+    "Serie equipo": {
+      "unique_values": 16,
+      "distribution": [
+        {
+          "value": "UN75I1909",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "UN75I2142",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "Desmontaje complicado.",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "R73J2865",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "R75E0479",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "UN81B0847",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "UN77F0369",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "R76E0479",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "UN86A1811",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "R732864",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "R78G2322",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "Un86A1811",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "UN75I1411",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "R73A1511",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "R73A1509",
+          "count": 1,
+          "percentage": 6.25
+        }
+      ]
+    },
+    "Control de bienes": {
+      "unique_values": 10,
+      "distribution": [
+        {
+          "value": "Sin Código ",
+          "count": 4,
+          "percentage": 25
+        },
+        {
+          "value": "Sin Código. ",
+          "count": 2,
+          "percentage": 12.5
+        },
+        {
+          "value": "Sin Codigo",
+          "count": 2,
+          "percentage": 12.5
+        },
+        {
+          "value": "02060910",
+          "count": 2,
+          "percentage": 12.5
+        },
+        {
+          "value": "02060927",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "02060959",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "02060958",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "02060911",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "Sin Código.",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "0206221",
+          "count": 1,
+          "percentage": 6.25
+        }
+      ]
+    },
+    "Batería externa ": {
+      "unique_values": 13,
+      "distribution": [
+        {
+          "value": "SI",
+          "count": 3,
+          "percentage": 18.75
+        },
+        {
+          "value": "SI, 13.22 vdc",
+          "count": 2,
+          "percentage": 12.5
+        },
+        {
+          "value": "SI, 13.70",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "SI, 12.61 vdc",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "SI, 11.87 vdc",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "SI, 12.01 vdc",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "SI, 13.62",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "SI, 11.40 vdc",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "SI, 13.71 vdc",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "SI, VOLTAJE MEDIDO, 11.34 vdc",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "SI, 12.64 vdc",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "SI, 12.98 vdc",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "SI, 13.26 vdc",
+          "count": 1,
+          "percentage": 6.25
+        }
+      ]
+    },
+    "Batería Interna": {
+      "unique_values": 7,
+      "distribution": [
+        {
+          "value": "NO",
+          "count": 8,
+          "percentage": 50
+        },
+        {
+          "value": "SI",
+          "count": 2,
+          "percentage": 12.5
+        },
+        {
+          "value": "SI, 3.02 vdc",
+          "count": 2,
+          "percentage": 12.5
+        },
+        {
+          "value": "Difícil desmontaje.",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "SI, 3.07 vdc",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "SI, 3.30 vdc",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "SI, 1.12 vdc",
+          "count": 1,
+          "percentage": 6.25
+        }
+      ]
+    },
+    "Alimentación independiente Electroiman": {
+      "unique_values": 7,
+      "distribution": [
+        {
+          "value": "SI",
+          "count": 8,
+          "percentage": 50
+        },
+        {
+          "value": "NO",
+          "count": 3,
+          "percentage": 18.75
+        },
+        {
+          "value": "SI, 16.95 vdc",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "NO, Sin electroiman",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "NO, Compartida con válvula de gas cafeteria administrativo PB",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "Suministrada por el panel 12v aux.",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "NO, Alimentacio del panel.",
+          "count": 1,
+          "percentage": 6.25
+        }
+      ]
+    },
+    "Posee tierra conectada adecuadamente": {
+      "unique_values": 4,
+      "distribution": [
+        {
+          "value": "NO",
+          "count": 13,
+          "percentage": 81.25
+        },
+        {
+          "value": "NO, Panel sin chasis, aterrizar a la caja. ",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "NO, RECOMENDACIONES, Conectar tierra física de chasis a chasis.",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "NO, RECOMENDACIONES, Conectar tierra de gabinete a chasis. Aterrizando en el punto eléctrico. ",
+          "count": 1,
+          "percentage": 6.25
+        }
+      ]
+    },
+    "Voltaje en Electroiman Puerta 1": {
+      "unique_values": 16,
+      "distribution": [
+        {
+          "value": "No( tornillo de tapa aislado)",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "10.14vdc",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "11.56vdc",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "9.8 vdc",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "13.35 vbc",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "12.17 vdc",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "12.37 vdc",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "12.72 vdc",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "16.50 vdc",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "13.7 vdc",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "No",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "16.91 vdc",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "13.65 vdc ",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "11.83",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "12.26 vdc",
+          "count": 1,
+          "percentage": 6.25
+        }
+      ]
+    },
+    "Voltaje Electroiman Puerta 2": {
+      "unique_values": 7,
+      "distribution": [
+        {
+          "value": "No",
+          "count": 8,
+          "percentage": 50
+        },
+        {
+          "value": "12.03 vdc",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "9.81 vdc",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "16.50 vdc (sistema contra incendios)",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "13.73 vdc",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "13.24 vdc",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "NO",
+          "count": 1,
+          "percentage": 6.25
+        }
+      ]
+    },
+    "Posee Supresor de Transientes Energia": {
+      "unique_values": 1,
+      "distribution": [
+        {
+          "value": "NO",
+          "count": 16,
+          "percentage": 100
+        }
+      ]
+    },
+    "Posee Supresor de Transientes Red": {
+      "unique_values": 1,
+      "distribution": [
+        {
+          "value": "NO",
+          "count": 16,
+          "percentage": 100
+        }
+      ]
+    },
+    "El tablero se encuentra Peinado sus cables al interior": {
+      "unique_values": 2,
+      "distribution": [
+        {
+          "value": "NO",
+          "count": 15,
+          "percentage": 93.75
+        },
+        {
+          "value": "Se requiere peinado y etiquetado.",
+          "count": 1,
+          "percentage": 6.25
+        }
+      ]
+    },
+    "El Tablero posee relés o otros equipos sin su base socket": {
+      "unique_values": 3,
+      "distribution": [
+        {
+          "value": "NO",
+          "count": 14,
+          "percentage": 87.5
+        },
+        {
+          "value": "Placa fuente sin aisladores",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": " Relé 12vdc",
+          "count": 1,
+          "percentage": 6.25
+        }
+      ]
+    },
+    "Recomendaciones Eléctricas del técnico": {
+      "unique_values": 15,
+      "distribution": [
+        {
+          "value": "Peinar, etiquetar cables, ponchar terminales y y agregar aisladores. ",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "Revisar el electroiman con bajo voltaje.",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "Peinar, ponchar terminales y etiquetar cables",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "Sustituir fuente de 12 vdc para electro iman ",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "Peinar, etiquetar y ponchar terminales de los cables.",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "Independizar fuente de electro iman, arreglo de cableado. ",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "Independizar electroimán cuarto de comunicación. ",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "Revisar el cableado y las conexiones del sistema contra incendios.",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "Independizar Electroimán.",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "Des habilitar el panel ",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "Independizar fuente de válvula de gas, ordenar, peinar, etiquetar cables. Cambiar fuente por fuente regulable para panel unc500.",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "Ordenar el cableado, peinar, etiquetar y ponchar terminales.\nIndependizar panel y electromagnéticos.\n",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "Ordenar cableado. Etiquetar, perimar y ponchar terminales. ",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "Ordenar cableado.",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "Ordenar Cableado.\nIndependicar voltaje Electromagnetico.",
+          "count": 1,
+          "percentage": 6.25
+        }
+      ]
+    },
+    "Activación de evacuación con Sistema Contraincendios": {
+      "unique_values": 2,
+      "distribution": [
+        {
+          "value": "SI",
+          "count": 13,
+          "percentage": 81.25
+        },
+        {
+          "value": "NO",
+          "count": 3,
+          "percentage": 18.75
+        }
+      ]
+    },
+    "Estado General Tablero": {
+      "unique_values": 2,
+      "distribution": [
+        {
+          "value": "Regular",
+          "count": 15,
+          "percentage": 93.75
+        },
+        {
+          "value": "Malo",
+          "count": 1,
+          "percentage": 6.25
+        }
+      ]
+    },
+    "Recomendaciones operatividad Técnico": {
+      "unique_values": 14,
+      "distribution": [
+        {
+          "value": "Funcionamiento Ideal.",
+          "count": 3,
+          "percentage": 18.75
+        },
+        {
+          "value": "Funcionamiento sin Novedades",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "Etiquetar, peinar y ponchar terminales. ",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "Operatividad ideal. ",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "Mantener la puerta cerrada. ",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "Mantener cerrada la puerta ",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "Correcto funcionamiento",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "Funcionamiento ideal. ",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "Reconfigurar la señal de incendios para la puerta de dirección aseguramiento de calidad p3",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "Retirar el panel ",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "Ordenar cableado interno del tablero y sus conexiones.",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "Ordenar el cableado.",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "Mantener la puerta cerrada.",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "Peinar, etiquetar y ponchar terminales.",
+          "count": 1,
+          "percentage": 6.25
+        }
+      ]
+    },
+    "Recomienda un trabajo Correctivo": {
+      "unique_values": 2,
+      "distribution": [
+        {
+          "value": "SI",
+          "count": 15,
+          "percentage": 93.75
+        },
+        {
+          "value": "Retirar el panel ",
+          "count": 1,
+          "percentage": 6.25
+        }
+      ]
+    },
+    "Observaciones": {
+      "unique_values": 16,
+      "distribution": [
+        {
+          "value": "Corregir cableado, etiquetado, voltaje alto, mecánicamente la bomba. ",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "Voltaje electroiman bajo.",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "Cableado con fallas ",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "Mal funcionamiento Electroiman, cableado desordenado. ",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "Cableado desordenado",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "Cableado desordenado, una fuente para todo el sistema. ",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "Cableado desordenado. Aumentar 1 fuente para una puerta.",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "Cableado desordenado, fuentes de baja capacidad. ",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "Cableado desordenado, fuente de bajo voltaje. Voltaje compartido con sistema detección de gas.",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "Cableado desordenado. Voltaje electroiman compartido.",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "Panel sin puerta, solo como puente de comunicación. ",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "Voltaje no regulado en alimentación del panel, recomendado 13.8 vdc. \nCableado desordenado.\nVoltaje de válvula de gas compartida.",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "Transformador sobrecalentado.\nCableado desordenado.\nFuente compartida.\nPanel sin transmisión de datos.",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "Cableado desordenado ",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "Cableado desordenado. Caja sin uso.",
+          "count": 1,
+          "percentage": 6.25
+        }
+      ]
+    },
+    "Recomendaciones": {
+      "unique_values": 16,
+      "distribution": [
+        {
+          "value": "Corregir para tener una máxima funcionalidad de la puerta ",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "Corregir cableado y verificar falla electroimán ",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "Etiquetar, peinar y ponchar terminales ",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "Corregir la fuente, corregir cableado. ",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "Peinar cables, etiquetar, ponchar terminales. ",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "Independizar fuentes, peinar, etiquetar y ponchar cables de conexión.",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "Arreglar el cableado, etiquetar, peinar y ponchar terminales. ",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "Estructurar el cableado, etiquetar, ponchar terminales, cambiar fuente de bajo rendimiento, configurar señal de incendios. ",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "Revisar el circuito, independizar voltaje, peinar y etiquetar cableado, ponchar terminales. ",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "Ordenar el cableado, etiquetar, peinar, independizar Electroimán. ",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "Retirar el panel ",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "Cambiar la fuente para el voltaje recomendado 18.3 vdc. \nIndependizar fuente válvula de gas.\nOrdenar, peinar, etiquetar cableado del panel.",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "Ordenar cableado.\nCambiar transformador.\nIndependizar fuentes.\nRevisar el panel con problemas en la transmisión de datos. ",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "Ponchar terminales, etiquetar, peinar cables.",
+          "count": 1,
+          "percentage": 6.25
+        },
+        {
+          "value": "Ordenar cable, etiquetar, peinar. Ponchar terminales. ",
+          "count": 1,
+          "percentage": 6.25
+        }
+      ]
+    }
+  },
+  "cross_analysis": [
+    {
+      "metric": "Voltaje de alimentación a Panel o equipo",
+      "grouped_by": "Marca temporal",
+      "data": [
+        {
+          "group": "MT-000014",
+          "sum": 19.5,
+          "avg": 19.5,
+          "count": 1
+        },
+        {
+          "group": "MT-000023",
+          "sum": 19.16,
+          "avg": 19.16,
+          "count": 1
+        },
+        {
+          "group": "MT-000018",
+          "sum": 18.74,
+          "avg": 18.74,
+          "count": 1
+        },
+        {
+          "group": "MT-000022",
+          "sum": 18.14,
+          "avg": 18.14,
+          "count": 1
+        },
+        {
+          "group": "MT-000021",
+          "sum": 18.11,
+          "avg": 18.11,
+          "count": 1
+        },
+        {
+          "group": "MT-000017",
+          "sum": 17.75,
+          "avg": 17.75,
+          "count": 1
+        },
+        {
+          "group": "MT-000009",
+          "sum": 17.49,
+          "avg": 17.49,
+          "count": 1
+        },
+        {
+          "group": "MT-000011",
+          "sum": 17.48,
+          "avg": 17.48,
+          "count": 1
+        },
+        {
+          "group": "MT-000010",
+          "sum": 17.33,
+          "avg": 17.33,
+          "count": 1
+        },
+        {
+          "group": "MT-000006",
+          "sum": 14.25,
+          "avg": 14.25,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "metric": "Voltaje de alimentación a Panel o equipo",
+      "grouped_by": "Tecnico Responsable",
+      "data": [
+        {
+          "group": "Alexis Conlago",
+          "sum": 254.06,
+          "avg": 15.88,
+          "count": 16
+        }
+      ]
+    },
+    {
+      "metric": "Voltaje de alimentación a Panel o equipo",
+      "grouped_by": "Tecnico de soporte",
+      "data": [
+        {
+          "group": "Juan Touma",
+          "sum": 254.06,
+          "avg": 15.88,
+          "count": 16
+        }
+      ]
+    }
+  ],
+  "dashboard_suggestions": [
+    "KPI cards para: Voltaje de alimentación a Panel o equipo, Valoración de  Estado de medidas Eléctricas, Funcionalidad de periféricos Apertura y Cierre con tarjetas o controles, Seteo de Tiempo para operación de apertura y cierre mecanismos  , Limpieza, engrasado o Lubricación (sum, avg, max)",
+    "Barras horizontales: Voltaje de alimentación a Panel o equipo agrupado por Marca temporal",
+    "Treemap: distribución de Voltaje de alimentación a Panel o equipo por Marca temporal",
+    "Donut/torta: distribución porcentual por Marca temporal",
+    "Filtros dropdown para: Marca temporal, Tecnico Responsable, Tecnico de soporte, Campus, Edificio, Ubicación: piso o lugar de referencia, Equipo, Serie equipo, Control de bienes, Batería externa , Batería Interna, Alimentación independiente Electroiman, Posee tierra conectada adecuadamente, Voltaje en Electroiman Puerta 1, Voltaje Electroiman Puerta 2, Posee Supresor de Transientes Energia, Posee Supresor de Transientes Red, El tablero se encuentra Peinado sus cables al interior, El Tablero posee relés o otros equipos sin su base socket, Recomendaciones Eléctricas del técnico, Activación de evacuación con Sistema Contraincendios, Estado General Tablero, Recomendaciones operatividad Técnico, Recomienda un trabajo Correctivo, Observaciones, Recomendaciones",
+    "Dispersión/scatter: Voltaje de alimentación a Panel o equipo vs Valoración de  Estado de medidas Eléctricas",
+    "Burbujas: Voltaje de alimentación a Panel o equipo (X) vs Valoración de  Estado de medidas Eléctricas (Y) con tamaño proporcional",
+    "Heatmap/mapa de calor: cruce de Marca temporal × Tecnico Responsable",
+    "Líneas de tendencia: Voltaje de alimentación a Panel o equipo a lo largo de Fecha y Hora del Mantenimiento",
+    "Gauge/velocímetro: % de cumplimiento de Voltaje de alimentación a Panel o equipo vs meta",
+    "Tabla con mini-barras (estilo Looker Studio)",
+    "Sparklines en KPI cards para mostrar tendencia reciente"
+  ],
+  "sheet": "Hoja 1"
+}

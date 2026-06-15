@@ -1,0 +1,533 @@
+{
+  "success": true,
+  "schema": [
+    {
+      "column": "No Formulario",
+      "type": "empty",
+      "non_empty": 0,
+      "sample_values": []
+    },
+    {
+      "column": "Marca temporal",
+      "type": "string",
+      "non_empty": 16,
+      "sample_values": [
+        "MT-000006",
+        "MT-000008",
+        "MT-000009",
+        "MT-000010",
+        "MT-000011"
+      ],
+      "unique_count": 16
+    },
+    {
+      "column": "Fecha y Hora del Mantenimiento",
+      "type": "date",
+      "non_empty": 16,
+      "sample_values": [
+        "2026-06-04T15:04:00.000Z",
+        "2026-06-04T16:52:00.000Z",
+        "2026-06-04T17:30:00.000Z",
+        "2026-06-04T19:30:00.000Z",
+        "2026-06-04T08:43:00.000Z"
+      ]
+    },
+    {
+      "column": "Tecnico Responsable",
+      "type": "string",
+      "non_empty": 16,
+      "sample_values": [
+        "Alexis Conlago",
+        "Alexis Conlago",
+        "Alexis Conlago",
+        "Alexis Conlago",
+        "Alexis Conlago"
+      ],
+      "unique_count": 1
+    },
+    {
+      "column": "Tecnico de soporte",
+      "type": "string",
+      "non_empty": 16,
+      "sample_values": [
+        "Juan Touma",
+        "Juan Touma",
+        "Juan Touma",
+        "Juan Touma",
+        "Juan Touma"
+      ],
+      "unique_count": 1
+    },
+    {
+      "column": "Campus",
+      "type": "string",
+      "non_empty": 16,
+      "sample_values": [
+        "Quito",
+        "Quito",
+        "Quito",
+        "Quito",
+        "Quito"
+      ],
+      "unique_count": 1
+    },
+    {
+      "column": "Edificio",
+      "type": "string",
+      "non_empty": 16,
+      "sample_values": [
+        "Administrativo",
+        "Administrativo",
+        "Administrativo",
+        "Administrativo",
+        "Administrativo"
+      ],
+      "unique_count": 2
+    },
+    {
+      "column": "Ubicación: piso o lugar de referencia",
+      "type": "string",
+      "non_empty": 16,
+      "sample_values": [
+        "Dirección de Estudiantes (Edf. Administrativo, Ducto PB)",
+        "Edf. Administrativo Gradas. (Ducto PB)",
+        "Edf. Adm PB - Tesorería. ( Ducto PB)",
+        "Recursos Humanos P1 ( DuctoPB)",
+        "DGAD P1 ( Ducto PB) "
+      ],
+      "unique_count": 16
+    },
+    {
+      "column": "Equipo",
+      "type": "string",
+      "non_empty": 16,
+      "sample_values": [
+        "UNC500",
+        "UNC500",
+        "RC2",
+        "RC2",
+        "RC2"
+      ],
+      "unique_count": 3
+    },
+    {
+      "column": "Serie equipo",
+      "type": "string",
+      "non_empty": 16,
+      "sample_values": [
+        "UN75I1909",
+        "UN75I2142",
+        "Desmontaje complicado.",
+        "R73J2865",
+        "R75E0479"
+      ],
+      "unique_count": 16
+    },
+    {
+      "column": "Control de bienes",
+      "type": "string",
+      "non_empty": 16,
+      "sample_values": [
+        "Sin Código. ",
+        "Sin Codigo",
+        "02060927",
+        "Sin Código ",
+        "Sin Codigo"
+      ],
+      "unique_count": 10
+    },
+    {
+      "column": "Batería externa ",
+      "type": "string",
+      "non_empty": 16,
+      "sample_values": [
+        "SI, 13.70",
+        "SI",
+        "SI",
+        "SI, 12.61 vdc",
+        "SI"
+      ],
+      "unique_count": 13
+    },
+    {
+      "column": "Registro de Fecha de cambio de bateria externa",
+      "type": "date",
+      "non_empty": 16,
+      "sample_values": [
+        "2025-05-13T05:00:00.000Z",
+        "2022-09-16T05:00:00.000Z",
+        "2022-09-09T05:00:00.000Z",
+        "2023-09-01T05:00:00.000Z",
+        "2022-09-16T05:00:00.000Z"
+      ]
+    },
+    {
+      "column": "Batería Interna",
+      "type": "boolean_string",
+      "non_empty": 16,
+      "sample_values": [
+        "SI",
+        "SI",
+        "Difícil desmontaje.",
+        "NO",
+        "NO"
+      ],
+      "unique_count": 7
+    },
+    {
+      "column": "Registro de Cambio de batería Interna",
+      "type": "date",
+      "non_empty": 16,
+      "sample_values": [
+        "2026-06-04T05:00:00.000Z",
+        "2026-06-04T05:00:00.000Z",
+        "2026-06-04T05:00:00.000Z",
+        "2026-06-04T05:00:00.000Z",
+        "2026-06-04T05:00:00.000Z"
+      ]
+    },
+    {
+      "column": "Alimentación independiente Electroiman",
+      "type": "boolean_string",
+      "non_empty": 16,
+      "sample_values": [
+        "NO",
+        "SI",
+        "SI",
+        "SI",
+        "SI"
+      ],
+      "unique_count": 7
+    },
+    {
+      "column": "Voltaje de alimentación a Panel o equipo",
+      "type": "number",
+      "non_empty": 16,
+      "sample_values": [
+        14.25,
+        "13.40vdc",
+        17.49,
+        "17.33 vdc",
+        "17.48 vac"
+      ],
+      "min": 14.25,
+      "max": 17.49,
+      "avg": 15.87
+    },
+    {
+      "column": "Posee tierra conectada adecuadamente",
+      "type": "string",
+      "non_empty": 16,
+      "sample_values": [
+        "NO, Panel sin chasis, aterrizar a la caja. ",
+        "NO",
+        "NO",
+        "NO",
+        "NO"
+      ],
+      "unique_count": 4
+    },
+    {
+      "column": "Voltaje en Electroiman Puerta 1",
+      "type": "string",
+      "non_empty": 16,
+      "sample_values": [
+        "No( tornillo de tapa aislado)",
+        "10.14vdc",
+        "11.56vdc",
+        "9.8 vdc",
+        "13.35 vbc"
+      ],
+      "unique_count": 16
+    },
+    {
+      "column": "Voltaje Electroiman Puerta 2",
+      "type": "boolean_string",
+      "non_empty": 14,
+      "sample_values": [
+        "No",
+        "No",
+        "No",
+        "No",
+        "No"
+      ],
+      "unique_count": 7
+    },
+    {
+      "column": "Posee Supresor de Transientes Energia",
+      "type": "boolean_string",
+      "non_empty": 16,
+      "sample_values": [
+        "NO",
+        "NO",
+        "NO",
+        "NO",
+        "NO"
+      ],
+      "unique_count": 1
+    },
+    {
+      "column": "Posee Supresor de Transientes Red",
+      "type": "boolean_string",
+      "non_empty": 16,
+      "sample_values": [
+        "NO",
+        "NO",
+        "NO",
+        "NO",
+        "NO"
+      ],
+      "unique_count": 1
+    },
+    {
+      "column": "El tablero se encuentra Peinado sus cables al interior",
+      "type": "boolean_string",
+      "non_empty": 16,
+      "sample_values": [
+        "NO",
+        "Se requiere peinado y etiquetado.",
+        "NO",
+        "NO",
+        "NO"
+      ],
+      "unique_count": 2
+    },
+    {
+      "column": "El Tablero posee relés o otros equipos sin su base socket",
+      "type": "string",
+      "non_empty": 16,
+      "sample_values": [
+        "Placa fuente sin aisladores",
+        "NO",
+        "NO",
+        "NO",
+        "NO"
+      ],
+      "unique_count": 3
+    },
+    {
+      "column": "Recomendaciones Eléctricas del técnico",
+      "type": "string",
+      "non_empty": 15,
+      "sample_values": [
+        "Peinar, etiquetar cables, ponchar terminales y y agregar aisladores. ",
+        "Revisar el electroiman con bajo voltaje.",
+        "Peinar, ponchar terminales y etiquetar cables",
+        "Sustituir fuente de 12 vdc para electro iman ",
+        "Peinar, etiquetar y ponchar terminales de los cables."
+      ],
+      "unique_count": 15
+    },
+    {
+      "column": "Valoración de  Estado de medidas Eléctricas",
+      "type": "number",
+      "non_empty": 16,
+      "sample_values": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "min": 2,
+      "max": 4,
+      "avg": 3.13
+    },
+    {
+      "column": "Funcionalidad de periféricos Apertura y Cierre con tarjetas o controles",
+      "type": "number",
+      "non_empty": 16,
+      "sample_values": [
+        4,
+        3,
+        5,
+        3,
+        3
+      ],
+      "min": 1,
+      "max": 5,
+      "avg": 3
+    },
+    {
+      "column": "Seteo de Tiempo para operación de apertura y cierre mecanismos  ",
+      "type": "number",
+      "non_empty": 16,
+      "sample_values": [
+        3,
+        3,
+        4,
+        3,
+        3
+      ],
+      "min": 1,
+      "max": 4,
+      "avg": 3.13
+    },
+    {
+      "column": "Limpieza, engrasado o Lubricación",
+      "type": "number",
+      "non_empty": 16,
+      "sample_values": [
+        4,
+        4,
+        4,
+        3,
+        3
+      ],
+      "min": 3,
+      "max": 4,
+      "avg": 3.25
+    },
+    {
+      "column": "Activación de evacuación con Sistema Contraincendios",
+      "type": "boolean_string",
+      "non_empty": 16,
+      "sample_values": [
+        "SI",
+        "NO",
+        "SI",
+        "SI",
+        "SI"
+      ],
+      "unique_count": 2
+    },
+    {
+      "column": "Estado General Tablero",
+      "type": "string",
+      "non_empty": 16,
+      "sample_values": [
+        "Regular",
+        "Regular",
+        "Regular",
+        "Regular",
+        "Regular"
+      ],
+      "unique_count": 2
+    },
+    {
+      "column": "Recomendaciones operatividad Técnico",
+      "type": "string",
+      "non_empty": 16,
+      "sample_values": [
+        "Funcionamiento sin Novedades",
+        "Etiquetar, peinar y ponchar terminales. ",
+        "Operatividad ideal. ",
+        "Mantener la puerta cerrada. ",
+        "Mantener cerrada la puerta "
+      ],
+      "unique_count": 14
+    },
+    {
+      "column": "Foto General",
+      "type": "url",
+      "non_empty": 8,
+      "sample_values": [
+        "https://drive.google.com/open?id=11SwCe1sZkZLbdE_nT-itA96FWMJ58iVV, https://drive.google.com/open?id=1Xc7X8ewGccO37wsMez15j44MbUDsm7Tl, https://drive.google.com/open?id=1BKtA0sEBmghby1dJYLCotzhvFgdc8EpS",
+        "https://drive.google.com/open?id=1-opvtw6rrOJCXI-exrqzRDDEAWorY2bp",
+        "https://drive.google.com/open?id=105-8xE0tN1ycP7hj5eGB9wR2bLf50wZV",
+        "https://drive.google.com/open?id=1dIeIn3w2lg_0h-_dIPSkg5Aryufa5LqE",
+        "https://drive.google.com/open?id=15ZmKfKgeyryPL7i3nsosX5vxs7amGEAH"
+      ]
+    },
+    {
+      "column": "Foto Placa de Datos",
+      "type": "url",
+      "non_empty": 7,
+      "sample_values": [
+        "https://drive.google.com/open?id=1rAGgDQ687uF_P8dDnsmNTgyshaOHN0r5",
+        "https://drive.google.com/open?id=1n3F0gk-BGhXLEuWftoBGLeBIlUoBGUqT",
+        "https://drive.google.com/open?id=1cJaAiqie7BVG79TbV4uObhkbg4vvwy4m",
+        "https://drive.google.com/open?id=1nQQc-Etrk6NCfjTFHX_tR_uK2NA_z1sd",
+        "https://drive.google.com/open?id=10i6cfevhl1FdE8cM2cTl-6UE6Bu26auX"
+      ]
+    },
+    {
+      "column": "Foto de Conexiones",
+      "type": "url",
+      "non_empty": 8,
+      "sample_values": [
+        "https://drive.google.com/open?id=1l8YgR1ZJSpa97SAdfNaKPObUucpw4jy7, https://drive.google.com/open?id=1IjtI3etGC0Ju8sbFkr2IY-dzAkSbGc_7, https://drive.google.com/open?id=1bTg1C0kON7ziJ2EBYm6a9w2uOmI8dUlf",
+        "https://drive.google.com/open?id=1vAUz06k6KY-XISRx4niEUcLqf6wtcX1j, https://drive.google.com/open?id=1E8MW_FD1vDSoc1H-oReBKc_1kFBqzTw5",
+        "https://drive.google.com/open?id=1rHWMKq3SzN7gYcXsq59U427moS08rDMj, https://drive.google.com/open?id=1n6LIjjsvW0ahPvitmnbnFg5FJUW1AKUd",
+        "https://drive.google.com/open?id=1BGoNmMfHHPSYjt4DTwxQO86ErclW50hX, https://drive.google.com/open?id=1e3jz1-lm1ZP3xmOWmXJJU3XLny_GIStz",
+        "https://drive.google.com/open?id=15i24eUgb_qv85xxhU0hbVpmSnNTP1JJa, https://drive.google.com/open?id=1s1Do8KWVPQ13XfQ9k9uPo3kpLxBSDMln"
+      ]
+    },
+    {
+      "column": "Foto de Mediciones",
+      "type": "url",
+      "non_empty": 8,
+      "sample_values": [
+        "https://drive.google.com/open?id=1m25GMuzt7n3BhFD1r9D8B5OIokzqBc2t, https://drive.google.com/open?id=1K9V451_SNUKYB-H6YSdaiRQVSR4-5_FJ",
+        "https://drive.google.com/open?id=1GRiF5nK-sDNJDm5HBhZnyjLmtFovsgI9, https://drive.google.com/open?id=1Gfr_-BZdKMN8C4QSV49Pwz-VfCrB3HAp",
+        "https://drive.google.com/open?id=1qpU-FDvQuIrKBtnuIWhfaud1luDO-l0j, https://drive.google.com/open?id=1eZjfs00ggKn1LVjDyRa0NVfc3AN74S6W",
+        "https://drive.google.com/open?id=1DYgUQUWP_rbJImlJGwgiomQpmxQCRF_U, https://drive.google.com/open?id=1BLWODDYsZOfrr6u1ftOkJsVuLD7bULw4, https://drive.google.com/open?id=1e3VCwrseKQp0LhrLmwgIrOyo0rRWMReh",
+        "https://drive.google.com/open?id=15y5m39PNSY2usbWJb_ODluLrPvcgglg4, https://drive.google.com/open?id=1nZGMOSAHxcvwooelIIxrLbUqr8bExBvk, https://drive.google.com/open?id=1ETLzspF9tfU2kuQiM2BKX9TTC46f0XTW"
+      ]
+    },
+    {
+      "column": "Subir Video Corto",
+      "type": "url",
+      "non_empty": 3,
+      "sample_values": [
+        "https://drive.google.com/open?id=1MQtdLwFtaDi1vsHSsTyg3H9m_NB442qV",
+        "https://drive.google.com/open?id=1D0N5eWBn-tRE6QnaRqIn-5zZ-Vu1gcPO",
+        "https://drive.google.com/open?id=1sWDnL8p8Fz58M41jt8nd_r7OUvvNhplF"
+      ]
+    },
+    {
+      "column": "Recomienda un trabajo Correctivo",
+      "type": "boolean_string",
+      "non_empty": 16,
+      "sample_values": [
+        "SI",
+        "SI",
+        "SI",
+        "SI",
+        "SI"
+      ],
+      "unique_count": 2
+    },
+    {
+      "column": "Observaciones",
+      "type": "string",
+      "non_empty": 16,
+      "sample_values": [
+        "Corregir cableado, etiquetado, voltaje alto, mecánicamente la bomba. ",
+        "Voltaje electroiman bajo.",
+        "Cableado con fallas ",
+        "Mal funcionamiento Electroiman, cableado desordenado. ",
+        "Cableado desordenado"
+      ],
+      "unique_count": 16
+    },
+    {
+      "column": "Recomendaciones",
+      "type": "string",
+      "non_empty": 16,
+      "sample_values": [
+        "Corregir para tener una máxima funcionalidad de la puerta ",
+        "Corregir cableado y verificar falla electroimán ",
+        "Etiquetar, peinar y ponchar terminales ",
+        "Corregir la fuente, corregir cableado. ",
+        "Peinar cables, etiquetar, ponchar terminales. "
+      ],
+      "unique_count": 16
+    },
+    {
+      "column": "Hora de cierre de trabajo",
+      "type": "date",
+      "non_empty": 16,
+      "sample_values": [
+        "1899-12-30T16:46:00.000Z",
+        "1899-12-30T17:43:00.000Z",
+        "1899-12-30T18:16:00.000Z",
+        "1899-12-30T08:56:00.000Z",
+        "1899-12-30T09:13:00.000Z"
+      ]
+    }
+  ],
+  "total_columns": 41,
+  "total_rows": 16,
+  "sheet": "Hoja 1"
+}
